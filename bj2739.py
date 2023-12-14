@@ -4,7 +4,7 @@
 # for i in range(1,10):
 #     result =num*i
 #     print(f"{num} * {i} = {result}")
-import sys
+
 
 #10950
 # j = int(input())
@@ -19,9 +19,11 @@ import sys
 #     sum+=j
 # print(sum)
 
-#
-input=sys.stdin.readline()
-j=
-for i in range(j):
-    n1,n2=
-print(n1+n2)
+#15552
+import sys
+n = int(sys.stdin.readline())
+
+for i in range(n):
+    n1, n2 = map(int, sys.stdin.readline().split())
+    n3 = n1+n2
+    print(f"Case #{i+1}: {n1} + {n2} = {n3}")
